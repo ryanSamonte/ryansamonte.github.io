@@ -15,7 +15,6 @@
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -52,13 +51,21 @@
         }
 
         .case-study-link .caption {
-            font-family: 'Inter';
+            font-family: 'Inter', sans-serif;
             font-size: 1rem;
             margin-bottom: 0.5rem;
         }
 
         .h4, h4 {
           font-size: 2rem;
+          text-transform: capitalize;
+        }
+
+        .brand {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
         }
     </style>
 </head>
@@ -103,7 +110,7 @@
                     <div class="brand">
                         <img style="width: 50px;" src="../img/rs-blogs-favicon.JPG" alt="RS">
     
-                        <h4 style="font-size: 2rem; margin-left: 1rem; margin-bottom: 0px; color: #fff;">RYAN JOSEPH SAMONTE</h4>
+                        <h4 style="font-size: 1.5rem; margin-left: 1rem; margin-bottom: 0px; color: #fff;">RYAN JOSEPH SAMONTE</h4>
                     </div>
                 </a>
             </div>
@@ -144,9 +151,9 @@
 
           <hr>
 
-          <div class="row" style="color: #000; font-family: 'Inter';">
+          <div class="row" style="color: #000;">
             <div class="col-md-3">
-              <h4>Duration:</h4>
+              <h4 style="font-size: 1.5rem;">Duration:</h4>
 
               <p class="m-0">
                 January 17-29, 2022 <br> (2 weeks)              
@@ -154,7 +161,7 @@
             </div>
 
             <div class="col-md-3">
-              <h4>Contribution:</h4>
+              <h4 style="font-size: 1.5rem;">Contribution:</h4>
 
               <p class="m-0">
                 User Research, Wireframing and Prototyping
@@ -162,7 +169,7 @@
             </div>
 
             <div class="col-md-3">
-              <h4>Team:</h4>
+              <h4 style="font-size: 1.5rem;">Team:</h4>
 
               <p class="m-0">
                 Marga Hernandez, Sam Sauler
@@ -170,7 +177,7 @@
             </div>
 
             <div class="col-md-3">
-              <h4>Tools Used:</h4>
+              <h4 style="font-size: 1.5rem;">Tools Used:</h4>
               
               <p class="m-0">
                 Notion, Whimsical, Figma
@@ -180,9 +187,9 @@
 
           <hr>
 
-          <div id="challenges" class="row" style="color: #000; font-family: 'Inter';">
+          <div id="challenges" class="row" style="color: #000;">
             <div class="col-md-12">
-              <h4>Challenge:</h4>
+              <h4>Challenge</h4>
 
               <div class="card">
                 <div class="card-body">
@@ -196,7 +203,7 @@
             </div>
 
             <div class="col-md-12 mt-4">
-              <h4>Solution:</h4>
+              <h4>Solution</h4>
 
               <div class="card">
                 <div class="card-body">
@@ -212,7 +219,7 @@
 
           <hr>
 
-          <div class="row" style="color: #000; font-family: 'Inter';">
+          <div class="row" style="color: #000;">
             <div class="col-md-12 text-justify">
               <p>
                 According to the Philippine Statistics Authority (PSA), in the year 2020, they recorded a total of <strong>957,620 business enterprises operating in the country</strong>. Of these, <strong>952,969 (99.51%) are MSMEs</strong> and 4,651 (0.49%) are large enterprises. Oftentimes, MSMEs do not have access to useful tools that can streamline their financial management and processes. As a business needs to expand and grow, employees might sometimes purchase on a company's behalf. As a result, a tedious reimbursement process arises.
@@ -261,7 +268,7 @@
             </div>
           </div>
 
-          <div class="row" style="color: #000; font-family: 'Inter';">
+          <div class="row" style="color: #000;">
             <div class="col-md-12 mt-4">
               <h4>
                 Angie faced these current problems…
@@ -310,6 +317,8 @@
               <p style="color: #000;">So, after finding out these current pain points, we asked ourselves: <strong>How might we help MSMEs make an old, outdated, tedious process feel like a breeze?</strong></p>
             </div>
           </div>
+
+          <hr>
 
           <div class="row mt-4">
             <div class="col-md-12">
@@ -410,6 +419,8 @@
             </div>
           </div>
 
+          <hr>
+
           <div class="row mt-4">
             <div class="col-md-12">
               <h4>
@@ -422,7 +433,7 @@
             </div>
           </div>
 
-          <div class="row" style="color: #000; font-family: 'Inter';">
+          <div class="row" style="color: #000;">
             <div class="col-md-12 mt-4">
               <h5>
                 First round of Testing
@@ -460,8 +471,8 @@
             </div>
           </div>
 
-          <div class="row" style="color: #000; font-family: 'Inter';">
-            <div class="col-md-12 mt-4">
+          <div class="row" style="color: #000;">
+            <div class="col-md-12 mt-5">
               <h5>
                 After iterating our design, we conduct our Second Round of Usability Testing
               </h5>
@@ -560,7 +571,7 @@
             <div class="col-md-12 text-center">
               <a href="https://bit.ly/NextPayEmployee" target="_blank" class="button secondary js-scroll-trigger mouseEvents m-auto">View Design Prototype</a>
 
-              <p class="mt-4" style="color: #000;">Got some ideas? <a href="../index.html#about-me"><strong>Let’s Collaborate</strong></a></p>
+              <p class="mt-4" style="color: #000;">Got some ideas? <a href="../index.html#about-me" style="text-decoration: underline;"><strong>Let’s Collaborate</strong></a></p>
             </div>
           </div>
           <br>
